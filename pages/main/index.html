@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetStory Online</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a class="logo" href="index.html">
+            <img src="../../assets/images/logo.png" width="82" height="52" alt="Zoo logo">
+            </a>
+        <nav class="header__navigation navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link navigation__link_active">About</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Map</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Zoos</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="../donate/index.html">Donate</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Contact us</a>
+                </li>
+            </ul>
+            <a class="header__creator" href="https://www.figma.com/">Designed by &#169</a> 
+        </nav>
+    </div>
+    </header>
+    <main>
+        <h1 class="visually-hidden">Online Zoo</h1>
+        <section class="promo">
+            <div class="container">
+                <img src="../../assets/images/Ellipse.png" alt="ellipse" width="465" height="465">
+                <h2 class="watch-heading">Watch your <span> favorite </span> animal online</h2>
+                <a href="#" class="button watch-button">Watch online</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+            <div class="half-wrap">
+                <img src="../../assets/images/bamboo-cap.jpg" alt="An old man in a bamboo cap" class="about-img" width="609" height="403">
+                <div class="text-wrap">
+                    <h3 class="section-heading">The Backstage of the Wilderness World.</h3>
+                    <p class="section-heading-text">The site was founded on the basis of a volunteer movement to protect and care for animals.</p>
+                    <h5 class="how-heading">How it works</h5>
+                    <p class="how-text">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p>
+                </div>
+                <img src="../../assets/images/flower_foto1.png" alt="Flower photo" class="flower_aside" width="204" height="605">
+            </div>
+    </section>
+    <section class="animals">
+        <div class="animals-slider">
+            <div class="animals-pagination">
+                <button class="animals-button animals-button-prev" aria-label="Click to see previous animals">
+                    <svg width="62" height="62" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="31" cy="31" r="31" fill="url(#a)"/><path d="m27.002 35.108.105.101.104-.102.14-.136.11-.107-.11-.108-3.603-3.51H39.15v-.493H23.749l3.602-3.509.11-.107-.11-.108-.14-.136-.104-.102-.105.102-4.107 4-.11.107.11.108 4.107 4Z" fill="#fff" stroke="#fff" stroke-width=".3"/><defs><lineargradient id="a" x1="-2.747" y1="9.185" x2="72.001" y2="42.408" gradientunits="userspaceonuse"><stop stop-color="#F9804B"/><stop offset="1" stop-color="#FE9013"/></lineargradient></defs></svg>
+                </button>
+                <button class="animals-button animals-button-next" aria-label="Click to see next animals">
+                    <svg width="62" height="62" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="31" cy="31" r="31" fill="url(#a)"/><path d="m34.998 26.892-.104-.101-.105.102-.14.136-.11.108.11.107 3.603 3.51H22.85v.493h15.401l-3.602 3.509-.11.108.11.107.14.136.105.102.104-.102 4.107-4 .11-.107-.11-.108-4.107-4Z" fill="#fff" stroke="#fff" stroke-width=".3"/><defs><lineargradient id="a" x1="-2.747" y1="9.185" x2="72.001" y2="42.408" gradientunits="userspaceonuse"><stop stop-color="#F9804B"/><stop offset="1" stop-color="#FE9013"/></lineargradient></defs></svg>
+                </button>
+            </div>
+        <ul class="animal-cards">
+            <li class="animal-card">
+                <img src="../../assets/images/photo-pandas.jpg" alt="Giant Pandas" width="366" height="366">
+                <div class="animal-text">
+                    <h6 class="animal-name">Giant Pandas</h6>
+                    <p class="animal-location">Native to Southwest China</p>
+                    <img src="../../assets/icons/banana-bamboo_icon.png" alt="Herbivore" class="herbivore-icon" width="33" height="37">
+                </div>
+            </li>
+            <li class="animal-card">
+                <img src="../../assets/images/photo-eagle.jpg" alt="Eagle photo" width="366" height="366">
+                <div class="animal-text">
+                    <h6 class="animal-name">Eagles</h6>
+                    <p class="animal-location">Native to South America</p>
+                    <img src="../../assets/icons/meet-fish_icon.png" alt="Predator" class="predator-icon" width="48" height="38">
+                </div>
+            </li>
+            <li class="animal-card">
+                <img src="../../assets/images/photo-gorilla.jpg" alt="Gorilla" width="366" height="366">
+                <div class="animal-text">
+                    <h6 class="animal-name">Gorillas</h6>
+                    <p class="animal-location">Native to Congo</p>
+                    <img src="../../assets/icons/banana-bamboo_icon.png" alt="Herbivore" class="herbivore-icon" width="33" height="37">
+                </div>
+            </li>
+            <li class="animal-card">
+                <img src="../../assets/images/photo-sloth.jpg" alt="Two-toed Sloth" width="366" height="366">
+                <div class="animal-text">
+                    <h6 class="animal-name">Two-toed Sloth</h6>
+                    <p class="animal-location">Mesoamerica, South America</p>
+                    <img src="../../assets/icons/banana-bamboo_icon.png" alt="Banana-icon" class="icon" width="33" height="37">
+                </div>
+            </li>
+            <li class="animal-card">
+                <img src="../../assets/images/photo-cheetah.jpg" alt="Cheetahs" width="366" height="366">
+                <div class="animal-text">
+                    <h6 class="animal-name">Cheetahs</h6>
+                    <p class="animal-location">Native to Africa</p>
+                    <img src="../../assets/icons/meet-fish_icon.png" alt="Predator" class="predator-icon" width="48" height="38">
+                </div>
+            </li>
+            <li class="animal-card">
+                <img src="../../assets/images/photo-penguin.jpg" alt="Penguins" width="366" height="366">
+                <div class="animal-text">
+                    <h6 class="animal-name">Penguins</h6>
+                    <p class="animal-location">Native to Antarctica</p>
+                    <img src="../../assets/icons/meet-fish_icon.png" alt="Predator" class="predator-icon" width="48" height="38">
+                </div>
+            </li> 
+        </ul>
+        </div>
+        <button class="button choose-button">Choose your favorite</button>
+    </section>
+    <section class="pick-and-feed">
+        <div class="pick-and-feed-container">
+            <h2 class="pick-and-feed-heading">Pick and feed a friend</h2>
+            <div class="pick-and-feed-text">
+                <h5 class="pick-and-feed-intro">We know the animals bring you joy, and in these extraordinary times, we’re glad.</h5>
+                <p class="covid-time">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people around the world find joy in PetStory.</p>
+                <p class="need-support">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a gift to our <a href="#">Emergency Support Fund</a> .</p>
+                <h3 class="how-heading">How it works</h3>
+            </div>
+            <div class="steps-to-feed">
+                <div class="first-step">
+                    <div class="icon-square icon-square-pay">
+                    </div>
+                    <p class="first-step-text">Pay with card</p>
+                </div>
+                <div class="second-step">
+                    <div class="icon-square icon-square-zoo">
+                    </div>
+                    <p class="second-step-text">Payment goes to the zoo</p>
+                </div>
+                <div class="third-step">
+                    <div class="icon-square icon-square-monkey">
+                    </div>
+                    <p class="second-step-text">Your favourite animal gets delicious dish</p>
+                </div>
+                
+            </div>
+            <button class="button feed-button">Feed a friend now</button>
+        </div>
+        
+    </section>
+    </main>
+</body>
+</html>
